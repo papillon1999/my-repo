@@ -6,3 +6,4 @@ jobs:                                # 잡 정의
     steps:                           # 스텝 정의
       - run: echo "Hello, world"     # 셸셸 명령 실행
       - uses: actions/checkout@v4    # 액션 호출
+      - run: ls
